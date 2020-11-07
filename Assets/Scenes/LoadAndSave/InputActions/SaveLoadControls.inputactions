@@ -1,0 +1,52 @@
+{
+    "name": "SaveLoadData",
+    "maps": [
+        {
+            "name": "SaveLoadData",
+            "id": "0c575e90-c121-4dae-8299-e97eefde73df",
+            "actions": [
+                {
+                    "name": "Save",
+                    "type": "Button",
+                    "id": "b0fefeca-d8f3-4668-abe5-528eb39b4842",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Load",
+                    "type": "Button",
+                    "id": "38c3de28-93a9-4d17-b82e-b39226c8f9a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a24f9b96-8895-4834-a271-c3f3659064eb",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "defef123-37c1-4333-a838-293d2875d533",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

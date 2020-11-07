@@ -1,0 +1,153 @@
+{
+    "name": "Rebinding_01",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "b2ef74c2-1fc9-4657-8ff5-97b25970a6ee",
+            "actions": [
+                {
+                    "name": "KeyboardMove",
+                    "type": "Value",
+                    "id": "dbef3563-d572-45d1-8b82-86d8533b3769",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KeyboardInteract",
+                    "type": "Button",
+                    "id": "4ddf57de-9441-4d36-821b-416a3a846f66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ControlerMove",
+                    "type": "Value",
+                    "id": "b762c0a0-0bde-4feb-9e7e-8fa3e0dfcb3b",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ControlerInteract",
+                    "type": "Button",
+                    "id": "af043f0d-3349-46aa-98a9-86b7d3cfb172",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ControlerLook",
+                    "type": "Value",
+                    "id": "1139b4ec-0c57-4f24-80e7-5018e8913db9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Move",
+                    "id": "3283e63a-aed7-45d6-8323-0251946b08cb",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a921c6c0-a5bd-4d9c-8615-c11cb0b4c4d2",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "7c4a309f-9c24-4bd8-938d-197d049c6e4b",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "55848a25-de0d-4b2c-ac3d-6cc214ec54e0",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "737618f0-64b1-4b05-beb3-3bd27fbd861e",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "dfff7655-ebe7-4574-b621-18d57b651840",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardInteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd54161c-2f8e-4893-a0ae-c7cec7fb36ca",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ControlerMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5cbe5e1f-d73e-406e-8e63-5a5e25a5a15a",
+                    "path": "<HID::Performance Designed Products Wired Fight Pad Pro for Nintendo Switch>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ControlerInteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "451ab0df-aa32-40ff-b6b7-93719fcc1bcd",
+                    "path": "<HID::Performance Designed Products Wired Fight Pad Pro for Nintendo Switch>/hat/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ControlerLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
